@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="pagesStyle.css" />
+  
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Web Weaver</title>
+  </head>
+  <body>
+    <header>
+      <div class="navigation">
+        <a href="index.html">
+          <img src="images/logo-no-background-icon.png" alt="" />
+          <p>Web Weaver</p>
+        </a>
+      </div>
+    </nav>
+    </header>
+    <aside>
+      <h2 class="subHeading">Components</h2>
+      <ul class="components-list">
+        <li><a href="alert.html">Alert</a></li>
+        <li><a href="avatar.html">Avatar</a></li>
+        <li><a href="badge.html">Badge</a></li>
+        <li><a href="button.html">Button</a></li>
+        <li><a href="card.html">Card</a></li>
+        <!-- <li><a href="input.html">Input</a></li> -->
+        <li><a href="image.html">Image</a></li>
+        
+        <li><a href="list.html">List</a></li>
+        <li><a href="navigation.html">Navigation</a></li>
+        <!-- <li><a href="#">Toast</a></li> -->
+      </ul>
+    </aside>
+    <main>
+      <section class="section">
+        <h1 class="heading">Avatar</h1>
+        <h3 class="heading-secondary">Standard Avatars</h3>
+        <div class="flex">
+          <figure class="avatar avatar-xl">
+            <img src="images/customer-1.jpg" alt="" />
+          </figure>
+          <figure class="avatar avatar-lg">
+            <img src="images/customer-2.jpg" alt="" />
+          </figure>
+          <figure class="avatar avatar-std">
+            <img src="images/customer-3.jpg" alt="" />
+          </figure>
+          <figure class="avatar avatar-sm">
+            <img src="images/customer-4.jpg" alt="" />
+          </figure>
+          <figure class="avatar avatar-xs">
+            <img src="images/customer-1.jpg" alt="" />
+          </figure>
+        </div>
+        <p class="component-info">
+          The avatar component has 5 sizes,<span> avatar-xl (6rem)</span>,<span
+            >avatar-lg (5rem)</span
+          >
+          ,<span> avatar-std (4rem)</span>, <span>avatar-sm (3rem)</span> , and
+          <span> avatar-xs (2rem)</span>.
+        </p>
+        <pre class="code-container">
+          <code>
+            &lt;figure class="avatar avatar-xl">
+              &lt;img src="images/customer-1.jpg" alt="" />
+            &lt;/figure>
+
+            &lt;figure class="avatar avatar-std">
+              &lt;img src="images/customer-2.jpg" alt="" />
+            &lt;/figure>
+          </code>
+        </pre>
+        <h3 class="heading-secondary">Avatar with status</h3>
+        <div class="flex">
+          <figure class="avatar avatar-xl status online">
+            <img src="images/customer-1.jpg" alt="" />
+          </figure>
+          <figure class="avatar avatar-xl status offline">
+            <img src="images/customer-2.jpg" alt="" />
+          </figure>
+          <figure class="avatar avatar-xl status dnd">
+            <img src="images/customer-3.jpg" alt="" />
+          </figure>
+        </div>
+        <p class="component-info">
+          Avatars support presence indicators. There are three indicators
+          <span>online</span>,<span>offline </span> and <span>dnd</span>.
+        </p>
+        <pre class="code-container">
+          <code>
+            &lt;figure class="avatar avatar-xl status online">
+              &lt;img src="images/customer-1.jpg" alt="" />
+            &lt;/figure>
+
+            &lt;figure class="avatar avatar-xl status offline">
+              &lt;img src="images/customer-2.jpg" alt="" />
+            &lt;/figure>
+          </code>
+        </pre>
+      </section>
+      
+    </main>
+  </body>
+</html>

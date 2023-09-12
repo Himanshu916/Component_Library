@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="pagesStyle.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Web Weaver</title>
+  </head>
+  <body>
+    <header>
+      <div class="navigation">
+        <a href="index.html">
+          <img src="images/logo-no-background-icon.png" alt="" />
+          <p>Web Weaver</p>
+        </a>
+      </div>
+    </nav>
+    </header>
+    <aside>
+      <h2 class="subHeading">Components</h2>
+      <ul class="components-list">
+        <li><a href="alert.html">Alert</a></li>
+        <li><a href="avatar.html">Avatar</a></li>
+        <li><a href="badge.html">Badge</a></li>
+        <li><a href="button.html">Button</a></li>
+        <li><a href="card.html">Card</a></li>
+        <!-- <li><a href="input.html">Input</a></li> -->
+        <li><a href="image.html">Image</a></li>
+        
+        <li><a href="list.html">List</a></li>
+        <li><a href="navigation.html">Navigation</a></li>
+        <!-- <li><a href="#">Toast</a></li> -->
+      </ul>
+    </aside>
+   <main>
+      <section class="section">
+        <h1 class="heading">Button</h1>
+        <h3 class="heading-secondary">Solid Buttons</h3>
+        <div class="flex">
+          <button class="btn btn-primary">Primary</button>
+          <button class="btn btn-secondary">Secondary</button>
+          <button class="btn btn-danger">Danger</button>
+        </div>
+        <p class="component-info">The solid button component is available in three variants <span>btn-primary</span>,<span>btn-secondary </span> and <span>btn-danger</span> .</p>
+
+        <pre class="code-container">
+          <code>
+            &lt;button class="btn btn-primary">Primary &lt;/button>
+            &lt;button class="btn btn-secondary">Secondary &lt;/button>
+            &lt;button class="btn btn-danger">Danger &lt;/button>
+          </code>
+        </pre>
+        <h3 class="heading-secondary">Icon Buttons</h3>
+        <div class="flex">
+          <button class="btn btn-icon btn-primary">
+            <ion-icon class="btn-icon--symbol" name="cart-outline"></ion-icon
+            ><span>Add To cart</span>
+          </button>
+          <button class="btn btn-icon btn-danger">
+            <ion-icon class="btn-icon--symbol" name="trash-outline"></ion-icon
+            ><span>Delete</span>
+          </button>
+        </div>
+        <p class="component-info">Add the <span> btn-icon</span> class to the button element and a img tag with the link to the icon.</p>
+        <pre class="code-container">
+          <code>
+              &lt;button class="btn btn-icon btn-primary">
+              &lt;ion-icon class="btn-icon--symbol" name="cart-outline">&lt;/ion-icon
+              >&lt;span>Add To cart&lt;/span>
+              &lt;/button>
+              &lt;button class="btn btn-icon btn-danger">
+              &lt;ion-icon class="btn-icon--symbol" name="trash-outline">&lt;/ion-icon
+              >&lt;span>Delete&lt;/span>
+              &lt;/button>
+          </code>
+        </pre>
+      </section>
+    
+     
+    </main>
+  </body>
+</html>

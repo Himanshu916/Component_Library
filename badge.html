@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="pagesStyle.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Web Weaver</title>
+  </head>
+  <body>
+    <header>
+      <div class="navigation">
+        <a href="index.html">
+          <img src="images/logo-no-background-icon.png" alt="" />
+          <p>Web Weaver</p>
+        </a>
+      </div>
+    </nav>
+    </header>
+    <aside>
+      <h2 class="subHeading">Components</h2>
+      <ul class="components-list">
+        <li><a href="alert.html">Alert</a></li>
+        <li><a href="avatar.html">Avatar</a></li>
+        <li><a href="badge.html">Badge</a></li>
+        <li><a href="button.html">Button</a></li>
+        <li><a href="card.html">Card</a></li>
+        <!-- <li><a href="input.html">Input</a></li> -->
+        <li><a href="image.html">Image</a></li>
+        
+        <li><a href="list.html">List</a></li>
+        <li><a href="navigation.html">Navigation</a></li>
+        <!-- <li><a href="#">Toast</a></li> -->
+      </ul>
+    </aside>
+    <main>
+
+      <section class="section">
+        <h1 class="heading">Badge</h1>
+        <h3 class="heading-secondary">Avatars with Badge</h3>
+        <div class="flex">
+          <figure class="avatar avatar-xl badge">
+            <img src="images/customer-1.jpg" alt="" />
+          </figure>
+          <figure class="avatar avatar-lg badge">
+            <img src="images/customer-2.jpg" alt="" />
+          </figure>
+          <figure class="avatar avatar-std badge">
+            <img src="images/customer-3.jpg" alt="" />
+          </figure>
+        </div>
+        <p class="component-info">
+          The badge component can be used in two ways with and without the
+          count.
+        </p>
+        <pre class="code-container">
+          <code>
+            &lt;figure class="avatar avatar-xl badge">
+              &lt;img src="images/customer-1.jpg" alt="" />
+            &lt;/figure>
+            &lt;figure class="avatar avatar-lg badge">
+              &lt;img src="images/customer-2.jpg" alt="" />
+            &lt;/figure>
+          </code>
+        </pre>
+        <h3 class="heading-secondary">Icons with Badge</h3>
+        <div class="flex">
+          <figure class="avatar avatar-xl badge-icon">
+            <ion-icon class="badge-icon--symbol" name="cart-outline"></ion-icon>
+            <p class="badge-icon--notif"><span>6</span></p>
+          </figure>
+          <figure class="avatar avatar-xl badge-icon">
+            <ion-icon class="badge-icon--symbol"  name="heart-outline"></ion-icon>
+            <p class="badge-icon--notif"><span>9</span></p>
+          </figure>
+        </div>
+        <p class="component-info">The badge component can be used with and without the badge count</p>
+        <pre class="code-container">
+          <code>
+            &lt;figure class="avatar avatar-xl badge-icon">
+              &lt;ion-icon class="badge-icon--symbol" name="cart-outline">&lt;/ion-icon>
+              &lt;p class="badge-icon--notif">&lt;span>6&lt;/span>&lt;/p>
+            &lt;/figure>
+            &lt;figure class="avatar avatar-xl badge-icon">
+              &lt;ion-icon class="badge-icon--symbol"  name="heart-outline">&lt;/ion-icon>
+              &lt;p class="badge-icon--notif">&lt;span>9</span>&lt;/p>
+            &lt;/figure>
+          </code>
+        </pre>
+      </section>
+     
+    </main>
+  </body>
+</html>

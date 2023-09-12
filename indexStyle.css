@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  color: #081143;
+  font-size: 20px;
+}
+.navigation {
+  padding: 1rem 2rem;
+}
+.navigation a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  color: #081143;
+}
+.navigation a p {
+  margin: 0;
+}
+.navigation a img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.landing-container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  transform: translateY(60%);
+  justify-content: space-between;
+  gap: 20rem;
+}
+.header {
+  height: 100vh;
+  background-image: linear-gradient(#e8ebfc, #e8ebfc);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  padding-top: 20px;
+}
+.landing-container--image {
+  width: 50rem;
+}
+.landing-container--image img {
+  width: 100%;
+}
+h1 {
+  font-size: 3rem;
+  line-height: 1.02;
+  margin-bottom: 32px;
+}
+p {
+  line-height: 1.6;
+  margin-bottom: 48px;
+}
+
+.btn {
+  padding: 0.6rem 1.2rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-decoration: none;
+  border-radius: 9px;
+  width: fit-content;
+  border: none;
+  color: #cecfd9;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.btn-primary {
+  background-color: #081143;
+}
+
+.btn-primary:hover {
+  background-color: #212956;
+  color: #e6e7ec;
+}
+.btn-secondary {
+  background-color: #fff;
+  color: #081143;
+  box-shadow: inset 0 0 0 1px #8488a1;
+  margin-left: 1rem;
+  display: inline-block;
+  width: 150px;
+}
+
+.btn-secondary:hover {
+  box-shadow: inset 0 0 0 2px #081143;
+}

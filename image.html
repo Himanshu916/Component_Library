@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="pagesStyle.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Web Weaver</title>
+  </head>
+  <body>
+    <header>
+      <div class="navigation">
+        <a href="index.html">
+          <img src="images/logo-no-background-icon.png" alt="" />
+          <p>Web Weaver</p>
+        </a>
+      </div>
+    </nav>
+    </header>
+    <aside>
+      <h2 class="subHeading">Components</h2>
+      <ul class="components-list">
+        <li><a href="alert.html">Alert</a></li>
+        <li><a href="avatar.html">Avatar</a></li>
+        <li><a href="badge.html">Badge</a></li>
+        <li><a href="button.html">Button</a></li>
+        <li><a href="card.html">Card</a></li>
+        <!-- <li><a href="input.html">Input</a></li> -->
+        <li><a href="image.html">Image</a></li>
+        
+        <li><a href="list.html">List</a></li>
+        <li><a href="navigation.html">Navigation</a></li>
+        <!-- <li><a href="#">Toast</a></li> -->
+      </ul>
+    </aside>
+    <main>
+      
+      
+      <section class="section">
+        <h1 class="heading">Image</h1>
+        <h3 class="heading-secondary">Responsive Image</h3>
+        <div class="img">
+          <img class="img-res" src="images/dog.jpg" alt="">
+        </div>
+        
+        <p class="component-info">
+          Add the <span> img-res </span>class to the image tag. The image will grow to the
+          100% width of it's parent container.
+        </p>
+        <pre class="code-container">
+          <code>
+            &lt;div class="img">
+              &lt;img class="img-res" src="images/dog.jpg" alt="">
+            &lt;/div>
+          </code>
+        </pre>
+        <h3 class="heading-secondary">Round Image</h3>
+        <div class="img round">
+          <img class="img-res " src="images/dog.jpg" alt="">
+        </div>
+        <p class="component-info">
+          Add the <span>img</span> and <span>round </span> class to container of the img tag to get a round image which will
+          grow to 100% width of it's parent container.
+        </p>
+        <pre class="code-container">
+          <code>
+            &lt;div class="img round">
+              &lt;img class="img-res " src="images/dog.jpg" alt="">
+            &lt;/div>
+          </code>
+        </pre>
+      </section>
+    </main>
+  </body>
+</html>

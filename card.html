@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="pagesStyle.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Web Weaver</title>
+  </head>
+  <body>
+    <header>
+      <div class="navigation">
+        <a href="index.html">
+          <img src="images/logo-no-background-icon.png" alt="" />
+          <p>Web Weaver</p>
+        </a>
+      </div>
+    </nav>
+    </header>
+    <aside>
+      <h2 class="subHeading">Components</h2>
+      <ul class="components-list">
+        <li><a href="alert.html">Alert</a></li>
+        <li><a href="avatar.html">Avatar</a></li>
+        <li><a href="badge.html">Badge</a></li>
+        <li><a href="button.html">Button</a></li>
+        <li><a href="card.html">Card</a></li>
+        <!-- <li><a href="input.html">Input</a></li> -->
+        <li><a href="image.html">Image</a></li>
+        
+        <li><a href="list.html">List</a></li>
+        <li><a href="navigation.html">Navigation</a></li>
+        <!-- <li><a href="#">Toast</a></li> -->
+      </ul>
+    </aside>
+    <main>
+      <section class="section">
+        <h1 class="heading">Card</h1>
+        <h3 class="heading-secondary">Responsive Card</h3>
+        <article class="grid">
+          <div class="card">
+            <img src="images/card_img.jpg" alt="" />
+            <div class="card-description">
+              <div class="product-title">
+                <div>
+                  <p class="product-name">Nike</p>
+                  <p class="product-rate">Rs.999</p>
+                </div>
+                <div class="wishlist">
+                  <ion-icon class="wishlist-icon"  name="heart-outline"></ion-icon><span class="wishlist-text">Wishlist</span>
+                </div>
+              </div>
+              <!-- product description -->
+              <ul>
+                <li>Lorem ipsum</li>
+                <li>adipisicing elit</li>
+              </ul>
+              <button class="btn btn-icon btn-primary width-whole">
+                <ion-icon
+                  class="btn-icon--symbol"
+                  name="cart-outline"
+                ></ion-icon
+                ><span>Add To cart</span>
+              </button>
+            </div>
+          </div>
+        </article>
+        <pre class="code-container">
+          <code>
+            &lt;article class="grid">
+            &lt;div class="card">
+            &lt;img src="..." alt="" />
+            &lt;div class="card-description">
+            &lt;div class="product-title">
+                    &lt;div>
+                    &lt;p class="product-name">Nike&lt;/p>
+                    &lt;p class="product-rate">Rs.999&lt;/p>
+                    &lt;/div>
+                    &lt;div class="wishlist">
+                    &lt;ion-icon
+                        class="wishlist-icon"
+                        name="bag-handle-outline"
+                      >&lt;/ion-icon
+                      >&lt;span class="wishlist-text">Wishlist&lt;/span>
+                      &lt;/div>
+                      &lt;/div>
+                  &lt;ul>
+                  &lt;li>Lorem ipsum&lt;/li>
+                  &lt;li>adipisicing elit&lt;/li>
+                  &lt;/ul>
+                  &lt;button class="btn btn-icon btn-primary width-whole">
+                  &lt;ion-icon class="btn-icon--symbol" name="cart-outline"> &lt;/ion-icon
+                    > &lt;span>Add To cart &lt;/span>
+                    &lt;/button>
+                  &lt;/div>
+                &lt;/div>
+              &lt;/article>
+          </code>
+        </pre>
+      </section>
+    </main>
+  </body>
+</html>
