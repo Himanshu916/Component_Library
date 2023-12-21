@@ -1,3 +1,7 @@
+html {
+  font-size: 62.5%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +10,7 @@
 body {
   font-family: "Rubik", sans-serif;
   color: #081143;
-  font-size: 20px;
+  font-size: 2rem;
 }
 .navigation {
   padding: 1rem 2rem;
@@ -27,13 +31,13 @@ body {
 }
 
 .landing-container {
-  width: 1200px;
+  max-width: 120rem;
   margin: 0 auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 45rem;
   align-items: center;
-  transform: translateY(60%);
-  justify-content: space-between;
-  gap: 20rem;
+  justify-content: center;
+  min-height: 90vh;
 }
 .header {
   height: 100vh;
@@ -45,11 +49,11 @@ nav {
   font-weight: 700;
   padding-top: 20px;
 }
-.landing-container--image {
-  width: 50rem;
-}
-.landing-container--image img {
-  width: 100%;
+
+.landing-container img {
+  max-width: 60%;
+
+  justify-self: center;
 }
 h1 {
   font-size: 3rem;
@@ -62,8 +66,8 @@ p {
 }
 
 .btn {
-  padding: 0.6rem 1.2rem;
-  font-size: 1.4rem;
+  padding: 1.2rem 1.8rem;
+  font-size: 1.8rem;
   font-weight: 400;
   text-decoration: none;
   border-radius: 9px;
@@ -92,4 +96,20 @@ p {
 
 .btn-secondary:hover {
   box-shadow: inset 0 0 0 2px #081143;
+}
+
+@media (max-width: 742px) {
+  .landing-container {
+    grid-template-columns: 1fr;
+    margin: 0 2rem;
+    margin-top: 2rem;
+    gap: 2rem;
+  }
+  .landing-container img {
+    grid-row: 1/2;
+  }
+
+  .landing-container--inner {
+    align-self: self-start;
+  }
 }

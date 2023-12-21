@@ -42,9 +42,9 @@ body {
   font-family: "Rubik", sans-serif;
   color: #081143;
   font-size: 2rem;
-  /* max-width: 120rem; */
+  max-width: 120rem;
   height: 100vh;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 30rem 1fr;
   padding-left: 10rem;
